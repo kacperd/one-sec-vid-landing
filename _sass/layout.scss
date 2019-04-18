@@ -11,7 +11,10 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
-	border-radius: 0px 0px 40px 40px;
+	
+	&.small {
+		height: 300px;
+	}
 
 }
 
@@ -34,6 +37,32 @@
 		"p p p p p i i i i i i i"
 		"c c c c c c c c c c c c"
 		"f f f f f f f f f f f f";
+		
+		
+	&.content {
+		grid-template-rows: 115px 200px auto auto;
+		
+		> div {
+			grid-area: c;
+			color: white;
+			margin: 0 32px 0 32px;
+			
+			h1, h2, h3, h4, h5, h6, strong {
+				color: $header-title-color;
+				margin: 16px 0 8px 0;
+			} 
+			
+			p {
+				color: $feature-text-color;
+				margin: 4px 0 4px 0;
+				display: inline-block;
+			}
+			
+			ul {
+				margin: 8px 0 8px 32px;
+			}
+		}
+	}
 }
 
 @media only screen and (max-width: 1070px) {
