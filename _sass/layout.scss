@@ -2,8 +2,9 @@
 	height: 714px;
 	background: 
 		linear-gradient(
-		rgba($image-overlay-color, $image-overlay-transparency), 
-		rgba($image-overlay-color, $image-overlay-transparency)
+		rgba($image-overlay-color, $image-overlay-transparency-start) 0%, 
+		rgba($image-overlay-color, $image-overlay-transparency-end) 90%,
+		$image-overlay-color
 		   ),
 		
 		url($header-image);
@@ -153,6 +154,13 @@ nav > ul li a:active {
 	color: rgba($header-title-color, 1);
 }
 
+@media (max-width: 992px) {
+
+	nav {
+		display: none;
+	}
+
+}
 
 
 // App Title, Price, Description and Links

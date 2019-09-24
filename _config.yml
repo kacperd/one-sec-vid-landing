@@ -6,9 +6,9 @@ playstore_link                            :                                     
 presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  :  assets/app_icon.jpg                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  :  One Second Videos                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_icon                                  : assets/app_icon.jpg                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : Clip - One Second Videos                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 : ""                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : Capture every moment that matters!
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
@@ -17,7 +17,7 @@ enable_smart_app_banner                   : true                                
 
 # Information About Yourself
 your_name                                 : Kacper Dziubek
-your_link                                 : kacpercodes.com
+your_link                                 : http://kacpercodes.com
 your_city                                 : Cracow                                
 email_address                             : contact@one-sec-vid.com
 facebook_username                         :                                           
@@ -36,30 +36,39 @@ privacy_policy_link						  : 'privacy-policy.html'
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Capture favourite moments
+  - title                                 : Capture Favourite Moments
     description                           : Capture your favourite moments on videos or photos and combine them together into beautiful compilations.
     fontawesome_icon_name                 : fas fa-heart
     
-  - title                                 : Save what matters
-    description                           : Trim your videos to 1-3 seconds which you can later use to create amazing collage. 
+  - title                                 : Save What Matters
+    description                           : Trim your videos to 1-3 seconds which you can later use to create amazing compilations. 
     fontawesome_icon_name                 : fas fa-star
 
-  - title                                 : Add still picture
+  - title                                 : Add Photos
     description                           : Your extraordinary photos will add a new dimension to your compilations.
-    fontawesome_icon_name                 : fas fa-play-circle
+    fontawesome_icon_name                 : fas fa-camera
 
   - title                                 : Export 
-    description                           : Export your moments as high-resulution mixtapes (4k support).
+    description                           : Export your moments as high-resolution mixtapes (HD & 4k supported).
     fontawesome_icon_name                 : fas fa-share
+
+  - title                                 : Auto Backup 
+    description                           : Your video snippets can be automatically backuped in iCloud and synchronized across all your iOS Devices.
+    fontawesome_icon_name                 : fas fa-cloud-upload-alt
+
+  - title                                 : Add Music
+    description                           : Add music from your iTunes Library to your compilations.
+    fontawesome_icon_name                 : fas fa-play-circle
 
   - title                                 : Share
     description                           : Keep you compilations private or share them with friends. They look great on Instagram!
-    fontawesome_icon_name                 : fab fa-instagram
-  
+    fontawesome_icon_name                 : fab fa-instagram  
+
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
     fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+
 
 
 
@@ -69,12 +78,13 @@ topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
 cover_image                               : assets/premium_back.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.8
+cover_overlay_color                       : "#1F2124"
+cover_overlay_transparency_start          : 0.80
+cover_overlay_transparency_end            : 0.99
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+device_color                              : coral                                     # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "#37353D"
+body_background_color                     : "#1F2124"
 
 link_color                                : "#D9634A"
 
